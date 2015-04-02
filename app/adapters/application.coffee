@@ -1,6 +1,7 @@
 `import DS from 'ember-data'`
+`import config from './config/environment'`
 
 ApplicationAdapter = DS.RESTAdapter.extend
-  host: 'http://localhost:3000'
+  host: config.apiHost
 
 `export default ApplicationAdapter`
