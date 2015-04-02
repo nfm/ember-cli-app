@@ -1,5 +1,5 @@
 `import DS from 'ember-data'`
-`import config from './config/environment'`
+`import config from 'frontend/config/environment'`
 
 ApplicationAdapter = DS.RESTAdapter.extend
   host: config.apiHost
