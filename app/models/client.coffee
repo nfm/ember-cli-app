@@ -2,6 +2,6 @@
 
 Client = DS.Model.extend
   name: DS.attr('string')
-  amount_unbilled: DS.attr('number')
+  amountUnbilled: DS.attr('number')
 
 `export default Client`
