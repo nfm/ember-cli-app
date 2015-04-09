@@ -1,0 +1,14 @@
+%h2 Welcome to Ember.js
+
+- link-to 'index'
+  The home page
+
+- link-to 'about'
+  The about page
+
+- link-to 'clients'
+  Clients
+
+%hr
+
+= outlet
