@@ -2,3 +2,7 @@
 <br />
 Unbilled
 ${{model.amountUnbilled}}
+
+{{#each project in model.projects}}
+  {{project.name}}
+{{/each}}
